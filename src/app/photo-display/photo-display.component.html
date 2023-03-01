@@ -1,1 +1,4 @@
-<p>photo-display works!</p>
+<button (click)="onClick()">NEW IMAGE</button>
+<div class="container">
+    <img *ngIf="photo" [src]="photo">
+</div>

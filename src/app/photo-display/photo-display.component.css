@@ -1,0 +1,26 @@
+
+button{
+    display: block;
+    margin: auto;
+    margin-top: 4em;
+    padding: 1em;
+    width: 15em;
+    font-weight: bold;
+    background-color: bisque;
+    border-radius: 5px;
+    outline-offset: none;
+    cursor: pointer;
+}
+
+.container {
+  height: 70vh;
+  margin-top: 2em;
+}
+
+img {
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
